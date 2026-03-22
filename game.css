@@ -1,0 +1,40 @@
+button {
+    padding: 5px 15px;
+    margin: 20px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+   
+}
+#paper {
+    background-color: red;
+}
+#rock {
+    background-color: green;
+}
+#scissors {
+    background-color: blue;
+}
+#reset {
+    background-color: rgb(18, 188, 218);
+    color: rgb(252, 252, 252);
+}
+#paper:hover , #rock:hover , #scissors:hover , #reset:hover {
+    padding: 6px 15px;
+    opacity: 0.8;
+     box-shadow: 4px 4px 4px rgba(80, 80, 80, 0.3);
+}
+#paper:focus , #rock:focus , #scissors:focus , #reset:focus {
+    background-color: rgb(25, 25, 25);
+    padding: 6px 16px;
+    opacity: 0.8;
+     box-shadow: 4px 4px 4px rgba(80, 80, 80, 0.3);
+}
+#reset:focus {
+    background-color: rgb(25, 25, 25);
+    padding: 6px 16px;
+    opacity: 0.8;
+     box-shadow: 4px 4px 4px rgba(80, 80, 80, 0.3);
+     color: white;
+}
